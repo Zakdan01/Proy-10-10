@@ -1,0 +1,30 @@
+.contenedor{
+    padding: 5px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-areas:    "header header"
+                            "nav nav"
+                            "contenido ads"
+                            "footer footer";
+}
+.header{
+    background-color: beige;
+    grid-area: header;
+}
+.nav{
+    background-color: beige;
+    grid-area: nav;
+}
+.contenido{
+    background-color: beige;
+    grid-area: contenido;
+}
+.ads{
+    background-color: beige;
+    grid-area: ads;
+}
+.footer{
+    background-color: beige;
+    grid-area: footer;
+}
